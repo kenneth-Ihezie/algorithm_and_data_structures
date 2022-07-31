@@ -94,3 +94,19 @@ print(ti[0])
 #slicing
 ti[2 : 3]
 ti[0 :: 2]
+
+# multiple list iteration.
+for i, j in [0, 2], [1, 4]:
+    print(i , j)
+
+
+class test:
+    def __init__(self):
+        pass
+
+    def sumNumbers(self, a, b):
+        return a + b
+
+
+testin = test()
+print(testin.sumNumbers(2, 4))

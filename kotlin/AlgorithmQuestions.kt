@@ -3,7 +3,7 @@ import kotlin.collections.ArrayList
 import kotlin.math.log2
 
 class AlgorithmQuestions {
-     fun superReducedString(s: String): String {
+    fun superReducedString(s: String): String {
          fun exit(s: String): Boolean{
              val flag = false
              val arrList = ArrayList<Boolean>()
